@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'hotpizza';
+    src: url(/Font/hotpizza.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+main{
+    width: 45%;
+    margin: auto;
+    height: 1200px;
+    padding: 0 18px;
+    height: 2500px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+li:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#blog{
+    border-bottom: 1px solid red;
+}
+#gal{
+    border-bottom: 1px solid red;
+}
+#vi{
+    border-bottom: 1px solid red;
+}
+a:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    padding: 20px;
+    text-align: center;
+}
+figure img{
+    max-width: 200px;
+    max-height: 200px;
+    height: 300px;
+}
+.imagenes:hover{
+    background-image: dimgrey;
+    filter: contrast(2);
+    transition-property: color;
+    transition-duration: 300ms, 400ms;
+    transition-timing-function: ease-in, ease-out;
+}
+.imagenes{
+    box-shadow: 10px 10px 10px 0px rgb(0,0,0,0.7);
+}
+.pizzasvideos{
+    box-shadow: 10px 10px 10px 0px rgb(0,0,0,0.7);
+    border: 2px solid grey;
+}
+h1:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+header>h1{
+    font-family:'hotpizza';
+    font-size: bold;
+    font-size: 90px;
+    text-align: center;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h2{
+    font-style: oblique;
+    font-family: serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.perfil{
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+}
+p,footer{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#redes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.redes{
+    border-radius: 100%;
+    background-color: black;
+    border: 10px solid black;
+    margin: 10px; 
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#im1{
+    float: left;
+}
+#im2{
+    float: right;
+}
+.perfil{
+    width: 10%;
+    justify-content: space-between;
+}
+#sape{
+    border-radius: 100%;
+}
